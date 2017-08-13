@@ -22,6 +22,12 @@ p{
   font-size: 200%;
 }
 
+p1{
+  color: white;
+  font-family: 'Anton', sans-serif;
+  font-size: 150%;
+}
+
 #homeSec1{
   background: url(images/landing.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
