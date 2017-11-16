@@ -19,7 +19,7 @@ h2{
 p{
   color:white;
   font-family: 'Anton', sans-serif;
-  font-size: 200%;
+  font-size: 125%;
 }
 
 p.sans-serif {
@@ -57,7 +57,7 @@ img.resize1{
 }
 
 #homeSec1{
-  background: url(images/landing4.jpg) no-repeat center center scroll;
+  background: url(images/wall.jpeg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -182,5 +182,7 @@ a.socialIcon:hover, .socialHoverClass {
 
 a {
 	background-color: transparent;
-	color: inherit;
+	color:white;
+  font-family: 'Anton', sans-serif;
+  font-size: 100%;
 }
