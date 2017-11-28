@@ -7,7 +7,20 @@ h1{
   -webkit-text-stroke-color: black;
   color: white;
   font-family: 'Anton', sans-serif;
-  font-size: 550%;
+	font-size: 550%;
+	display: inline-block;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+h1:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	bottom: 0;
+	left: 0%;
+	border-bottom: 1px solid white;
 }
 
 h2{
@@ -57,7 +70,7 @@ img.resize1{
 }
 
 #homeSec1{
-  background: url(images/wall.jpeg) no-repeat center center scroll;
+  background: url(images/finalLanding.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
